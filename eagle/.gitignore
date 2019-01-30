@@ -1,0 +1,5 @@
+*.s#?
+*.b#?
+eagle.epf
+eagle.rc
+#eagle.epf.in
