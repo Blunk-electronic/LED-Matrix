@@ -3825,7 +3825,9 @@ date: 2018-12-09</description>
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_10k"/>
 </part>
 <part name="GND1" library="be_supply" deviceset="GND" device=""/>
-<part name="C101" library="be_rcl" deviceset="C_POL" device="_T_RAD5_GRID_2.54" value="1u"/>
+<part name="C101" library="be_rcl" deviceset="C_POL" device="_T_RAD5_GRID_2.54" value="1u">
+<attribute name="PART_CODE_BEL" value="C_PAC_T_RADIAL_5mm_PITCH_2mm54_VAL_1u"/>
+</part>
 <part name="R101" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="10k">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_10k"/>
 </part>
@@ -3861,7 +3863,9 @@ date: 2018-12-09</description>
 <part name="IC102" library="be_logic" deviceset="7400" device="N" value="74LS00">
 <attribute name="PART_CODE_BEL" value="IC_PAC_T_NDIP14_VAL_SN74LS00N"/>
 </part>
-<part name="R103" library="be_rcl" deviceset="RA" device="_T_PT10_HORIZONTAL" value="1M"/>
+<part name="R103" library="be_rcl" deviceset="RA" device="_T_PT10_HORIZONTAL" value="1M">
+<attribute name="FUNCTION" value="REFRESH RATE"/>
+</part>
 <part name="TP102" library="be_con_jump" deviceset="TEST_POINT" device="_T_SMALL"/>
 <part name="TP104" library="be_con_jump" deviceset="TEST_POINT" device="_T_SMALL"/>
 <part name="TP103" library="be_con_jump" deviceset="TEST_POINT" device="_T_SMALL"/>
@@ -3886,83 +3890,115 @@ date: 2018-12-09</description>
 <part name="T701" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N701" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND12" library="be_supply" deviceset="GND" device=""/>
-<part name="LED701" library="be_opt" deviceset="LED" device="_T_ROUND_3MM"/>
+<part name="LED701" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
+<attribute name="FUNCTION" value="RND1"/>
+</part>
 <part name="R702" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T702" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N702" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND13" library="be_supply" deviceset="GND" device=""/>
-<part name="LED702" library="be_opt" deviceset="LED" device="_T_ROUND_3MM"/>
+<part name="LED702" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
+<attribute name="PURPOSE" value="RND2"/>
+</part>
 <part name="R703" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T703" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N703" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND14" library="be_supply" deviceset="GND" device=""/>
-<part name="LED703" library="be_opt" deviceset="LED" device="_T_ROUND_3MM"/>
+<part name="LED703" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
+<attribute name="PURPOSE" value="RND3"/>
+</part>
 <part name="R704" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T704" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N704" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND15" library="be_supply" deviceset="GND" device=""/>
-<part name="LED704" library="be_opt" deviceset="LED" device="_T_ROUND_3MM"/>
+<part name="LED704" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
+<attribute name="PURPOSE" value="RND4"/>
+</part>
 <part name="R705" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T705" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N705" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND16" library="be_supply" deviceset="GND" device=""/>
-<part name="LED705" library="be_opt" deviceset="LED" device="_T_ROUND_3MM"/>
+<part name="LED705" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
+<attribute name="PURPOSE" value="RND5"/>
+</part>
 <part name="R706" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T706" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N706" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND17" library="be_supply" deviceset="GND" device=""/>
-<part name="LED706" library="be_opt" deviceset="LED" device="_T_ROUND_3MM"/>
+<part name="LED706" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
+<attribute name="PURPOSE" value="RND6"/>
+</part>
 <part name="R707" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T707" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N707" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND18" library="be_supply" deviceset="GND" device=""/>
-<part name="LED707" library="be_opt" deviceset="LED" device="_T_ROUND_3MM"/>
+<part name="LED707" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
+<attribute name="PURPOSE" value="RND7"/>
+</part>
 <part name="R708" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T708" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N708" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND19" library="be_supply" deviceset="GND" device=""/>
-<part name="LED708" library="be_opt" deviceset="LED" device="_T_ROUND_3MM"/>
+<part name="LED708" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
+<attribute name="PURPOSE" value="RND8"/>
+</part>
 <part name="R709" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T709" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N709" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND20" library="be_supply" deviceset="GND" device=""/>
-<part name="LED709" library="be_opt" deviceset="LED" device="_T_ROUND_3MM"/>
+<part name="LED709" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
+<attribute name="PURPOSE" value="RND9"/>
+</part>
 <part name="FRAME_PRODUCT5" library="be_frame" deviceset="A4_LANDSCAPE_PRODUCT" device=""/>
 <part name="R801" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T801" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N801" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND21" library="be_supply" deviceset="GND" device=""/>
-<part name="LED801" library="be_opt" deviceset="LED" device="_T_ROUND_3MM"/>
+<part name="LED801" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
+<attribute name="PURPOSE" value="RND10"/>
+</part>
 <part name="R802" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T802" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N802" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND22" library="be_supply" deviceset="GND" device=""/>
-<part name="LED802" library="be_opt" deviceset="LED" device="_T_ROUND_3MM"/>
+<part name="LED802" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
+<attribute name="PURPOSE" value="RND11"/>
+</part>
 <part name="R803" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T803" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N803" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND23" library="be_supply" deviceset="GND" device=""/>
-<part name="LED803" library="be_opt" deviceset="LED" device="_T_ROUND_3MM"/>
+<part name="LED803" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
+<attribute name="PURPOSE" value="RND12"/>
+</part>
 <part name="R804" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T804" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N804" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND24" library="be_supply" deviceset="GND" device=""/>
-<part name="LED804" library="be_opt" deviceset="LED" device="_T_ROUND_3MM"/>
+<part name="LED804" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
+<attribute name="PURPOSE" value="RND13"/>
+</part>
 <part name="R805" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T805" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N805" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND25" library="be_supply" deviceset="GND" device=""/>
-<part name="LED805" library="be_opt" deviceset="LED" device="_T_ROUND_3MM"/>
+<part name="LED805" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
+<attribute name="PURPOSE" value="RND14"/>
+</part>
 <part name="R806" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T806" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N806" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND26" library="be_supply" deviceset="GND" device=""/>
-<part name="LED806" library="be_opt" deviceset="LED" device="_T_ROUND_3MM"/>
+<part name="LED806" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
+<attribute name="PURPOSE" value="RND15"/>
+</part>
 <part name="R807" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T807" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N807" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND27" library="be_supply" deviceset="GND" device=""/>
-<part name="LED807" library="be_opt" deviceset="LED" device="_T_ROUND_3MM"/>
+<part name="LED807" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
+<attribute name="PURPOSE" value="RND16"/>
+</part>
 <part name="FRAME_PRODUCT6" library="be_frame" deviceset="A4_LANDSCAPE_PRODUCT" device=""/>
 <part name="IC301" library="be_logic" deviceset="7495" device="N">
 <attribute name="PART_CODE_BEL" value="IC_PAC_T_NDIP14_VAL_SN7495N"/>
@@ -4067,7 +4103,9 @@ date: 2018-12-09</description>
 <part name="R903" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="1k">
 <attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_1k"/>
 </part>
-<part name="R904" library="be_rcl" deviceset="RA" device="_T_PT10_HORIZONTAL" value="1M"/>
+<part name="R904" library="be_rcl" deviceset="RA" device="_T_PT10_HORIZONTAL" value="1M">
+<attribute name="FUNCTION" value="BRIGHTNESS"/>
+</part>
 <part name="FRAME_PRODUCT10" library="be_frame" deviceset="A4_LANDSCAPE_PRODUCT" device=""/>
 <part name="X1001" library="be_con_jump" deviceset="CLAMP_1X2" device="-T-5MM">
 <attribute name="FUNCTION" value="PWR_IN"/>
@@ -4094,7 +4132,9 @@ date: 2018-12-09</description>
 </part>
 <part name="GND56" library="be_supply" deviceset="GND" device=""/>
 <part name="FRAME_PRODUCT11" library="be_frame" deviceset="A4_LANDSCAPE_PRODUCT" device=""/>
-<part name="RPH901" library="be_rcl" deviceset="RPH" device=""/>
+<part name="RPH901" library="be_rcl" deviceset="RPH" device="">
+<attribute name="FUNCTION" value="LIGHT SENSOR"/>
+</part>
 <part name="X1101" library="be_con_jump" deviceset="MALE_2X13" device="-T-VERTICAL_2.54MM">
 <attribute name="FUNCTION" value="RANDOM DATA OUT"/>
 </part>
@@ -4105,7 +4145,7 @@ date: 2018-12-09</description>
 <sheet>
 <plain>
 <text x="127" y="142.24" size="1.27" layer="97" font="fixed">count on LH edge</text>
-<text x="45.72" y="144.78" size="1.27" layer="97" font="fixed">1..100Hz</text>
+<text x="64.135" y="152.4" size="1.27" layer="97" font="fixed">1..100Hz</text>
 </plain>
 <instances>
 <instance part="FRAME_PRODUCT1" gate="G$1" x="0" y="0"/>
@@ -4128,7 +4168,11 @@ date: 2018-12-09</description>
 <instance part="IC102" gate="C" x="68.58" y="88.9"/>
 <instance part="IC102" gate="D" x="203.2" y="142.24"/>
 <instance part="IC102" gate="B" x="68.58" y="55.88"/>
-<instance part="R103" gate="G$1" x="40.64" y="147.32" rot="R180"/>
+<instance part="R103" gate="G$1" x="40.64" y="147.32" smashed="yes" rot="R180">
+<attribute name="FUNCTION" x="44.45" y="144.145" size="1.27" layer="96" font="fixed"/>
+<attribute name="NAME" x="44.45" y="148.209" size="1.27" layer="95" font="fixed"/>
+<attribute name="VALUE" x="44.45" y="146.05" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="TP102" gate="G$1" x="60.96" y="154.94" rot="R270"/>
 <instance part="TP104" gate="G$1" x="96.52" y="88.9" rot="R270"/>
 <instance part="TP103" gate="G$1" x="71.12" y="106.68"/>
@@ -4298,6 +4342,7 @@ date: 2018-12-09</description>
 <wire x1="60.96" y1="86.36" x2="35.56" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="86.36" x2="35.56" y2="101.6" width="0.1524" layer="91"/>
 <junction x="35.56" y="101.6"/>
+<pinref part="IC102" gate="C" pin="I1"/>
 </segment>
 <segment>
 <pinref part="IC102" gate="D" pin="I0"/>
@@ -4386,7 +4431,7 @@ date: 2018-12-09</description>
 <wire x1="78.74" y1="55.88" x2="83.82" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="CLK_SLOW_RA" class="0">
 <segment>
 <pinref part="R101" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="142.24" x2="35.56" y2="142.24" width="0.1524" layer="91"/>
@@ -5165,15 +5210,15 @@ date: 2018-12-09</description>
 <instance part="TP602" gate="G$1" x="167.005" y="86.995"/>
 <instance part="TP601" gate="G$1" x="161.925" y="86.995"/>
 <instance part="RN601" gate="A" x="154.305" y="81.915" smashed="yes">
-<attribute name="NAME" x="151.765" y="79.375" size="1.27" layer="95" font="fixed"/>
+<attribute name="NAME" x="151.13" y="79.375" size="1.27" layer="95" font="fixed"/>
 <attribute name="VALUE" x="152.4" y="81.28" size="1.27" layer="96" font="fixed"/>
 </instance>
 <instance part="RN601" gate="B" x="154.305" y="76.835" smashed="yes">
-<attribute name="NAME" x="151.765" y="74.295" size="1.27" layer="95" font="fixed"/>
+<attribute name="NAME" x="151.13" y="74.295" size="1.27" layer="95" font="fixed"/>
 <attribute name="VALUE" x="152.4" y="76.2" size="1.27" layer="96" font="fixed"/>
 </instance>
 <instance part="RN601" gate="C" x="154.305" y="69.215" smashed="yes">
-<attribute name="NAME" x="152.4" y="70.485" size="1.27" layer="95" font="fixed"/>
+<attribute name="NAME" x="151.13" y="66.675" size="1.27" layer="95" font="fixed"/>
 <attribute name="VALUE" x="152.4" y="68.58" size="1.27" layer="96" font="fixed"/>
 </instance>
 <instance part="RN601" gate="D" x="154.305" y="64.135" smashed="yes" rot="R180">
@@ -5277,47 +5322,65 @@ date: 2018-12-09</description>
 <instance part="T701" gate="G$1" x="71.12" y="139.7"/>
 <instance part="N701" gate="G$1" x="45.72" y="139.7"/>
 <instance part="GND12" gate="1" x="73.66" y="129.54"/>
-<instance part="LED701" gate="G$1" x="73.66" y="152.4"/>
+<instance part="LED701" gate="G$1" x="73.66" y="152.4">
+<attribute name="FUNCTION" x="76.2" y="153.67" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="R702" gate="G$1" x="60.96" y="101.6"/>
 <instance part="T702" gate="G$1" x="71.12" y="101.6"/>
 <instance part="N702" gate="G$1" x="45.72" y="101.6"/>
 <instance part="GND13" gate="1" x="73.66" y="91.44"/>
-<instance part="LED702" gate="G$1" x="73.66" y="114.3"/>
+<instance part="LED702" gate="G$1" x="73.66" y="114.3">
+<attribute name="PURPOSE" x="76.2" y="115.57" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="R703" gate="G$1" x="60.96" y="60.96"/>
 <instance part="T703" gate="G$1" x="71.12" y="60.96"/>
 <instance part="N703" gate="G$1" x="45.72" y="60.96"/>
 <instance part="GND14" gate="1" x="73.66" y="50.8"/>
-<instance part="LED703" gate="G$1" x="73.66" y="73.66"/>
+<instance part="LED703" gate="G$1" x="73.66" y="73.66">
+<attribute name="PURPOSE" x="76.2" y="74.93" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="R704" gate="G$1" x="137.16" y="139.7"/>
 <instance part="T704" gate="G$1" x="147.32" y="139.7"/>
 <instance part="N704" gate="G$1" x="121.92" y="139.7"/>
 <instance part="GND15" gate="1" x="149.86" y="129.54"/>
-<instance part="LED704" gate="G$1" x="149.86" y="152.4"/>
+<instance part="LED704" gate="G$1" x="149.86" y="152.4">
+<attribute name="PURPOSE" x="152.4" y="153.67" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="R705" gate="G$1" x="137.16" y="101.6"/>
 <instance part="T705" gate="G$1" x="147.32" y="101.6"/>
 <instance part="N705" gate="G$1" x="121.92" y="101.6"/>
 <instance part="GND16" gate="1" x="149.86" y="91.44"/>
-<instance part="LED705" gate="G$1" x="149.86" y="114.3"/>
+<instance part="LED705" gate="G$1" x="149.86" y="114.3">
+<attribute name="PURPOSE" x="152.4" y="115.57" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="R706" gate="G$1" x="137.16" y="60.96"/>
 <instance part="T706" gate="G$1" x="147.32" y="60.96"/>
 <instance part="N706" gate="G$1" x="121.92" y="60.96"/>
 <instance part="GND17" gate="1" x="149.86" y="50.8"/>
-<instance part="LED706" gate="G$1" x="149.86" y="73.66"/>
+<instance part="LED706" gate="G$1" x="149.86" y="73.66">
+<attribute name="PURPOSE" x="152.4" y="74.93" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="R707" gate="G$1" x="210.82" y="139.7"/>
 <instance part="T707" gate="G$1" x="220.98" y="139.7"/>
 <instance part="N707" gate="G$1" x="195.58" y="139.7"/>
 <instance part="GND18" gate="1" x="223.52" y="129.54"/>
-<instance part="LED707" gate="G$1" x="223.52" y="152.4"/>
+<instance part="LED707" gate="G$1" x="223.52" y="152.4">
+<attribute name="PURPOSE" x="226.06" y="153.67" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="R708" gate="G$1" x="210.82" y="101.6"/>
 <instance part="T708" gate="G$1" x="220.98" y="101.6"/>
 <instance part="N708" gate="G$1" x="195.58" y="101.6"/>
 <instance part="GND19" gate="1" x="223.52" y="91.44"/>
-<instance part="LED708" gate="G$1" x="223.52" y="114.3"/>
+<instance part="LED708" gate="G$1" x="223.52" y="114.3">
+<attribute name="PURPOSE" x="226.06" y="115.57" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="R709" gate="G$1" x="210.82" y="60.96"/>
 <instance part="T709" gate="G$1" x="220.98" y="60.96"/>
 <instance part="N709" gate="G$1" x="195.58" y="60.96"/>
 <instance part="GND20" gate="1" x="223.52" y="50.8"/>
-<instance part="LED709" gate="G$1" x="223.52" y="73.66"/>
+<instance part="LED709" gate="G$1" x="223.52" y="73.66">
+<attribute name="PURPOSE" x="226.06" y="74.93" size="1.27" layer="96" font="fixed"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -5715,37 +5778,51 @@ date: 2018-12-09</description>
 <instance part="T801" gate="G$1" x="63.5" y="144.78"/>
 <instance part="N801" gate="G$1" x="38.1" y="144.78"/>
 <instance part="GND21" gate="1" x="66.04" y="134.62"/>
-<instance part="LED801" gate="G$1" x="66.04" y="157.48"/>
+<instance part="LED801" gate="G$1" x="66.04" y="157.48">
+<attribute name="PURPOSE" x="68.58" y="158.75" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="R802" gate="G$1" x="53.34" y="106.68"/>
 <instance part="T802" gate="G$1" x="63.5" y="106.68"/>
 <instance part="N802" gate="G$1" x="38.1" y="106.68"/>
 <instance part="GND22" gate="1" x="66.04" y="96.52"/>
-<instance part="LED802" gate="G$1" x="66.04" y="119.38"/>
+<instance part="LED802" gate="G$1" x="66.04" y="119.38">
+<attribute name="PURPOSE" x="68.58" y="120.65" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="R803" gate="G$1" x="53.34" y="66.04"/>
 <instance part="T803" gate="G$1" x="63.5" y="66.04"/>
 <instance part="N803" gate="G$1" x="38.1" y="66.04"/>
 <instance part="GND23" gate="1" x="66.04" y="55.88"/>
-<instance part="LED803" gate="G$1" x="66.04" y="78.74"/>
+<instance part="LED803" gate="G$1" x="66.04" y="78.74">
+<attribute name="PURPOSE" x="68.58" y="80.01" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="R804" gate="G$1" x="129.54" y="144.78"/>
 <instance part="T804" gate="G$1" x="139.7" y="144.78"/>
 <instance part="N804" gate="G$1" x="114.3" y="144.78"/>
 <instance part="GND24" gate="1" x="142.24" y="134.62"/>
-<instance part="LED804" gate="G$1" x="142.24" y="157.48"/>
+<instance part="LED804" gate="G$1" x="142.24" y="157.48">
+<attribute name="PURPOSE" x="144.78" y="158.75" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="R805" gate="G$1" x="129.54" y="106.68"/>
 <instance part="T805" gate="G$1" x="139.7" y="106.68"/>
 <instance part="N805" gate="G$1" x="114.3" y="106.68"/>
 <instance part="GND25" gate="1" x="142.24" y="96.52"/>
-<instance part="LED805" gate="G$1" x="142.24" y="119.38"/>
+<instance part="LED805" gate="G$1" x="142.24" y="119.38">
+<attribute name="PURPOSE" x="144.78" y="120.65" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="R806" gate="G$1" x="129.54" y="66.04"/>
 <instance part="T806" gate="G$1" x="139.7" y="66.04"/>
 <instance part="N806" gate="G$1" x="114.3" y="66.04"/>
 <instance part="GND26" gate="1" x="142.24" y="55.88"/>
-<instance part="LED806" gate="G$1" x="142.24" y="78.74"/>
+<instance part="LED806" gate="G$1" x="142.24" y="78.74">
+<attribute name="PURPOSE" x="144.78" y="80.01" size="1.27" layer="96" font="fixed"/>
+</instance>
 <instance part="R807" gate="G$1" x="200.66" y="144.78"/>
 <instance part="T807" gate="G$1" x="210.82" y="144.78"/>
 <instance part="N807" gate="G$1" x="185.42" y="144.78"/>
 <instance part="GND27" gate="1" x="213.36" y="134.62"/>
-<instance part="LED807" gate="G$1" x="213.36" y="157.48"/>
+<instance part="LED807" gate="G$1" x="213.36" y="157.48">
+<attribute name="PURPOSE" x="215.9" y="158.75" size="1.27" layer="96" font="fixed"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6070,8 +6147,12 @@ date: 2018-12-09</description>
 <instance part="T901" gate="G$1" x="187.96" y="91.44"/>
 <instance part="R906" gate="G$1" x="172.72" y="91.44"/>
 <instance part="R903" gate="G$1" x="104.14" y="139.7" rot="R90"/>
-<instance part="R904" gate="G$1" x="121.92" y="119.38"/>
-<instance part="RPH901" gate="G$1" x="104.14" y="116.84" rot="R270"/>
+<instance part="R904" gate="G$1" x="121.92" y="119.38">
+<attribute name="FUNCTION" x="113.665" y="115.57" size="1.27" layer="96" font="fixed" rot="R90"/>
+</instance>
+<instance part="RPH901" gate="G$1" x="104.14" y="116.84" rot="R270">
+<attribute name="FUNCTION" x="100.965" y="113.03" size="1.27" layer="96" font="fixed" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -6214,7 +6295,7 @@ date: 2018-12-09</description>
 <wire x1="177.8" y1="91.44" x2="185.42" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="TIM_RA" class="0">
 <segment>
 <pinref part="R904" gate="G$1" pin="A"/>
 <wire x1="121.92" y1="124.46" x2="121.92" y2="132.08" width="0.1524" layer="91"/>
@@ -6563,6 +6644,59 @@ date: 2018-12-09</description>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="101,6,30.48,33.02,H601,MOUNT,,,,"/>
+<approved hash="101,6,30.48,22.86,H602,MOUNT,,,,"/>
+<approved hash="101,6,63.5,33.02,H603,MOUNT,,,,"/>
+<approved hash="101,6,63.5,22.86,H604,MOUNT,,,,"/>
+<approved hash="102,10,106.68,137.16,OUT,P5V,,,,"/>
+<approved hash="104,1,213.36,71.12,IC101P,VCC,P5V,,,"/>
+<approved hash="104,1,165.1,114.3,IC103P,VCC,P5V,,,"/>
+<approved hash="104,2,88.9,109.22,IC201P,VCC,P5V,,,"/>
+<approved hash="104,2,185.42,109.22,IC202P,VCC,P5V,,,"/>
+<approved hash="104,1,165.1,71.12,IC102P,VCC,P5V,,,"/>
+<approved hash="104,3,88.9,109.22,IC301P,VCC,P5V,,,"/>
+<approved hash="104,3,185.42,109.22,IC302P,VCC,P5V,,,"/>
+<approved hash="104,4,88.9,109.22,IC401P,VCC,P5V,,,"/>
+<approved hash="104,4,185.42,109.22,IC402P,VCC,P5V,,,"/>
+<approved hash="104,5,88.9,109.22,IC501P,VCC,P5V,,,"/>
+<approved hash="104,5,185.42,109.22,IC502P,VCC,P5V,,,"/>
+<approved hash="104,9,40.64,101.6,IC901,VCC,P5V,,,"/>
+<approved hash="104,10,76.2,137.16,IC1001,IN,PWR_IN_VREG,,,"/>
+<approved hash="113,1,62.0526,154.94,TP102,,,,,"/>
+<approved hash="113,1,97.6126,88.9,TP104,,,,,"/>
+<approved hash="113,1,71.12,107.773,TP103,,,,,"/>
+<approved hash="113,1,215.9,138.607,TP105,,,,,"/>
+<approved hash="113,1,45.72,62.0526,TP101,,,,,"/>
+<approved hash="113,6,208.738,79.375,TP605,,,,,"/>
+<approved hash="113,6,208.738,66.675,TP606,,,,,"/>
+<approved hash="113,6,177.165,88.0876,TP604,,,,,"/>
+<approved hash="113,6,172.085,88.0876,TP603,,,,,"/>
+<approved hash="113,6,167.005,88.0876,TP602,,,,,"/>
+<approved hash="113,6,161.925,88.0876,TP601,,,,,"/>
+<approved hash="113,2,63.5,135.713,TP201,,,,,"/>
+<approved hash="113,7,76.6559,151.13,LED701,,,,,"/>
+<approved hash="113,7,76.6559,113.03,LED702,,,,,"/>
+<approved hash="113,7,76.6559,72.39,LED703,,,,,"/>
+<approved hash="113,7,152.856,151.13,LED704,,,,,"/>
+<approved hash="113,7,152.856,113.03,LED705,,,,,"/>
+<approved hash="113,7,152.856,72.39,LED706,,,,,"/>
+<approved hash="113,7,226.516,151.13,LED707,,,,,"/>
+<approved hash="113,7,226.516,113.03,LED708,,,,,"/>
+<approved hash="113,7,226.516,72.39,LED709,,,,,"/>
+<approved hash="113,8,69.0359,156.21,LED801,,,,,"/>
+<approved hash="113,8,69.0359,118.11,LED802,,,,,"/>
+<approved hash="113,8,69.0359,77.47,LED803,,,,,"/>
+<approved hash="113,8,145.236,156.21,LED804,,,,,"/>
+<approved hash="113,8,145.236,118.11,LED805,,,,,"/>
+<approved hash="113,8,145.236,77.47,LED806,,,,,"/>
+<approved hash="113,8,216.356,156.21,LED807,,,,,"/>
+<approved hash="113,3,63.5,135.713,TP301,,,,,"/>
+<approved hash="113,4,63.5,135.713,TP401,,,,,"/>
+<approved hash="113,5,63.5,135.713,TP501,,,,,"/>
+<approved hash="113,9,104.242,116.84,RPH901,,,,,"/>
+<approved hash="113,10,134.209,129.54,J1001,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 </eagle>
