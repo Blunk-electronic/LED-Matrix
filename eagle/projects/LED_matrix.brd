@@ -1202,7 +1202,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterlplatten-anfragef
 </pass>
 </autorouter>
 <elements>
-<element name="C102" library="be_rcl" package="T_DISC_4MM_PITCH_5MM" value="10n" x="57" y="8.6" smashed="yes" rot="R180">
+<element name="C102" library="be_rcl" package="T_DISC_4MM_PITCH_5MM" value="1n" x="57" y="8.6" smashed="yes" rot="R180">
 <attribute name="FUNCTION" value="" x="57" y="8.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="COMMISSIONED" value="2018-12-23" x="57" y="8.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART_CODE_BEL" value="C_PAC_T_DISC_7mm_PITCH_5mm_VAL_10n" x="57" y="8.6" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1212,10 +1212,10 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterlplatten-anfragef
 <attribute name="NAME" x="53.4" y="9.6" size="1" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="53.2" y="8.4" size="1" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="C101" library="be_rcl" package="T_RADIAL_5MM_GRID_2.54MM" value="1u" x="81.1" y="15.2" smashed="yes" rot="R90">
+<element name="C101" library="be_rcl" package="T_RADIAL_5MM_GRID_2.54MM" value="470n" x="81.1" y="15.2" smashed="yes" rot="R90">
 <attribute name="FUNCTION" value="" x="81.1" y="15.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="COMMISSIONED" value="2015-01-15" x="81.1" y="15.2" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="PART_CODE_BEL" value="C_PAC_T_RADIAL_5mm_PITCH_2mm54_VAL_1u" x="81.1" y="15.2" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PART_CODE_BEL" value="C_PAC_T_RADIAL_5mm_PITCH_2mm54_VAL_470n" x="81.1" y="15.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="BOM" value="YES" x="81.1" y="15.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="UPDATED" value="" x="81.1" y="15.2" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="81.1" y="15.2" size="1.778" layer="27" rot="R90" display="off"/>
@@ -1330,10 +1330,10 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterlplatten-anfragef
 <attribute name="NAME" x="63.5" y="4.4" size="1" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="63.3" y="6.2" size="1" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="R103" library="be_rcl" package="T_TRIM_PIHER_PT10_HORIZONTAL" value="1M" x="75.1" y="8.7" smashed="yes" rot="R270">
+<element name="R103" library="be_rcl" package="T_TRIM_PIHER_PT10_HORIZONTAL" value="500k" x="75.1" y="8.7" smashed="yes" rot="R270">
 <attribute name="FUNCTION" value="REFRESH RATE" x="71.2" y="1.8" size="1" layer="27" font="vector" ratio="15"/>
 <attribute name="COMMISSIONED" value="2018-11-11" x="75.1" y="8.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_CODE_BEL" value="R_PAC_T_TRIM_PIHER_PT10_HORIZONTAL_VAL_" x="75.1" y="8.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_CODE_BEL" value="R_PAC_T_TRIM_PIHER_PT10_HORIZONTAL_VAL_500k" x="75.1" y="8.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="BOM" value="YES" x="75.1" y="8.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="UPDATED" value="" x="75.1" y="8.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="75.1" y="8.7" size="1.778" layer="27" rot="R270" display="off"/>

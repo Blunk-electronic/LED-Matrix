@@ -3818,15 +3818,15 @@ date: 2018-12-09</description>
 <part name="FRAME_PRODUCT2" library="be_frame" deviceset="A4_LANDSCAPE_PRODUCT" device=""/>
 <part name="FRAME_PRODUCT3" library="be_frame" deviceset="A4_LANDSCAPE_PRODUCT" device=""/>
 <part name="IC101" library="be_logic" deviceset="4093" device="N"/>
-<part name="C102" library="be_rcl" deviceset="C" device="_T_DISC_4MM_PITCH_5MM" value="10n">
+<part name="C102" library="be_rcl" deviceset="C" device="_T_DISC_4MM_PITCH_5MM" value="1n">
 <attribute name="PART_CODE_BEL" value="C_PAC_T_DISC_7mm_PITCH_5mm_VAL_10n"/>
 </part>
 <part name="R102" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="10k">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_10k"/>
 </part>
 <part name="GND1" library="be_supply" deviceset="GND" device=""/>
-<part name="C101" library="be_rcl" deviceset="C_POL" device="_T_RAD5_GRID_2.54" value="1u">
-<attribute name="PART_CODE_BEL" value="C_PAC_T_RADIAL_5mm_PITCH_2mm54_VAL_1u"/>
+<part name="C101" library="be_rcl" deviceset="C_POL" device="_T_RAD5_GRID_2.54" value="470n">
+<attribute name="PART_CODE_BEL" value="C_PAC_T_RADIAL_5mm_PITCH_2mm54_VAL_470n"/>
 </part>
 <part name="R101" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="10k">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_10k"/>
@@ -3863,8 +3863,9 @@ date: 2018-12-09</description>
 <part name="IC102" library="be_logic" deviceset="7400" device="N" value="74LS00">
 <attribute name="PART_CODE_BEL" value="IC_PAC_T_NDIP14_VAL_SN74LS00N"/>
 </part>
-<part name="R103" library="be_rcl" deviceset="RA" device="_T_PT10_HORIZONTAL" value="1M">
+<part name="R103" library="be_rcl" deviceset="RA" device="_T_PT10_HORIZONTAL" value="500k">
 <attribute name="FUNCTION" value="REFRESH RATE"/>
+<attribute name="PART_CODE_BEL" value="R_PAC_T_TRIM_PIHER_PT10_HORIZONTAL_VAL_500k"/>
 </part>
 <part name="TP102" library="be_con_jump" deviceset="TEST_POINT" device="_T_SMALL"/>
 <part name="TP104" library="be_con_jump" deviceset="TEST_POINT" device="_T_SMALL"/>
@@ -4145,7 +4146,8 @@ date: 2018-12-09</description>
 <sheet>
 <plain>
 <text x="127" y="142.24" size="1.27" layer="97" font="fixed">count on LH edge</text>
-<text x="64.135" y="152.4" size="1.27" layer="97" font="fixed">1..100Hz</text>
+<text x="64.135" y="152.4" size="1.27" layer="97" font="fixed">3..160Hz</text>
+<text x="48.26" y="63.5" size="1.27" layer="97" font="fixed">100kHz</text>
 </plain>
 <instances>
 <instance part="FRAME_PRODUCT1" gate="G$1" x="0" y="0"/>
