@@ -1,5 +1,6 @@
 *.s#?
 *.b#?
+*.log
 eagle.epf
 eagle.rc
 #eagle.epf.in
