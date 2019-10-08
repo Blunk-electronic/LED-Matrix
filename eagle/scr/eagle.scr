@@ -26,8 +26,8 @@ CHANGE drill 0.3;
 ASSIGN CTRL+B disp none doc dim bpla bdoc bnam bval borig;
 ASSIGN CTRL+T disp none doc dim tpla tdoc tnam tval torig;
 
-ASSIGN ALT+T disp none dim doc tpla tnam tval top via pad
-ASSIGN ALT+B disp none dim doc bpla bnam bval bot via pad
+ASSIGN ALT+T disp none dim doc tpla tnam tval top via pad 53
+ASSIGN ALT+B disp none dim doc bpla bnam bval bot via pad 54
 
 #ASSIGN ALT+R 'script rats'; #RIP @; DISP -2 -15;
 ASSIGN ALT+R rats; rip @;

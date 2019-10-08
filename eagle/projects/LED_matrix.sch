@@ -3825,8 +3825,8 @@ date: 2018-12-09</description>
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_10k"/>
 </part>
 <part name="GND1" library="be_supply" deviceset="GND" device=""/>
-<part name="C101" library="be_rcl" deviceset="C_POL" device="_T_RAD5_GRID_2.54" value="470n">
-<attribute name="PART_CODE_BEL" value="C_PAC_T_RADIAL_5mm_PITCH_2mm54_VAL_470n"/>
+<part name="C101" library="be_rcl" deviceset="C_POL" device="_T_RAD5_GRID_2.54" value="1u">
+<attribute name="PART_CODE_BEL" value="C_PAC_T_RADIAL_5mm_PITCH_2mm54_VAL_1u"/>
 </part>
 <part name="R101" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="10k">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_10k"/>
@@ -4194,7 +4194,7 @@ date: 2018-12-09</description>
 <sheet>
 <plain>
 <text x="127" y="142.24" size="1.27" layer="97" font="fixed">count on LH edge</text>
-<text x="64.135" y="152.4" size="1.27" layer="97" font="fixed">3..160Hz</text>
+<text x="64.135" y="152.4" size="1.27" layer="97" font="fixed">1..100Hz</text>
 <text x="48.26" y="63.5" size="1.27" layer="97" font="fixed">100kHz</text>
 </plain>
 <instances>
@@ -5826,63 +5826,63 @@ date: 2018-12-09</description>
 <label x="185.42" y="93.98" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$1" class="0">
+<net name="DRV_OUT_A_1" class="0">
 <segment>
 <pinref part="LED701" gate="G$1" pin="A"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="157.48" x2="73.66" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$2" class="0">
+<net name="DRV_OUT_A_4" class="0">
 <segment>
 <pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="LED704" gate="G$1" pin="A"/>
 <wire x1="149.86" y1="157.48" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$3" class="0">
+<net name="DRV_OUT_A_7" class="0">
 <segment>
 <pinref part="R3" gate="G$1" pin="2"/>
 <pinref part="LED707" gate="G$1" pin="A"/>
 <wire x1="223.52" y1="157.48" x2="223.52" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$4" class="0">
+<net name="DRV_OUT_A_3" class="0">
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="66.04" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="LED703" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$5" class="0">
+<net name="DRV_OUT_A_6" class="0">
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="66.04" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="LED706" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$6" class="0">
+<net name="DRV_OUT_A_9" class="0">
 <segment>
 <pinref part="R6" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="66.04" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="LED709" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="DRV_OUT_A_2" class="0">
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="111.76" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="LED702" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="DRV_OUT_A_5" class="0">
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="111.76" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="LED705" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$9" class="0">
+<net name="DRV_OUT_A_8" class="0">
 <segment>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="111.76" x2="223.52" y2="109.22" width="0.1524" layer="91"/>
@@ -6254,49 +6254,49 @@ date: 2018-12-09</description>
 <label x="35.56" y="139.7" size="1.27" layer="95" font="fixed" rot="R180" xref="yes"/>
 </segment>
 </net>
-<net name="N$10" class="0">
+<net name="DRV_OUT_A_10" class="0">
 <segment>
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="157.48" x2="73.66" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="LED801" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$11" class="0">
+<net name="DRV_OUT_A_13" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="157.48" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="LED804" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="DRV_OUT_A_16" class="0">
 <segment>
 <pinref part="R12" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="157.48" x2="223.52" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="LED807" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$13" class="0">
+<net name="DRV_OUT_A_11" class="0">
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="111.76" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="LED802" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$14" class="0">
+<net name="DRV_OUT_A_14" class="0">
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="111.76" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="LED805" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$15" class="0">
+<net name="DRV_OUT_A_12" class="0">
 <segment>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="66.04" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="LED803" gate="G$1" pin="A"/>
 </segment>
 </net>
-<net name="N$16" class="0">
+<net name="DRV_OUT_A_15" class="0">
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="66.04" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
