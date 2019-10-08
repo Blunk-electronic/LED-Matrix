@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,18 +53,18 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
-<layer number="57" name="HEIGHT" color="7" fill="1" visible="no" active="no"/>
-<layer number="58" name="DEPTH" color="7" fill="1" visible="no" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
+<layer number="57" name="HEIGHT" color="7" fill="1" visible="yes" active="no"/>
+<layer number="58" name="DEPTH" color="7" fill="1" visible="yes" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -1461,6 +1461,30 @@ date: 2018-12-23</description>
 <wire x1="-1.5" y1="1" x2="1.5" y2="1" width="0.15" layer="21"/>
 <wire x1="-1.5" y1="-1" x2="1.5" y2="-1" width="0.15" layer="21"/>
 </package>
+<package name="T_VISHAY_PTF65_PITCH_15MM">
+<description>edited: Mario Blunk / Blunk electronic&lt;br&gt;
+date: 2019-05-27</description>
+<wire x1="7.5" y1="0" x2="6.564" y2="0" width="0.6096" layer="51"/>
+<wire x1="-7.5" y1="0" x2="-6.564" y2="0" width="0.6096" layer="51"/>
+<wire x1="-5.975" y1="1.689" x2="-5.721" y2="1.943" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-5.975" y1="-1.689" x2="-5.721" y2="-1.943" width="0.1524" layer="21" curve="90"/>
+<wire x1="5.721" y1="-1.943" x2="5.975" y2="-1.689" width="0.1524" layer="21" curve="90"/>
+<wire x1="5.721" y1="1.943" x2="5.975" y2="1.689" width="0.1524" layer="21" curve="-90"/>
+<wire x1="-5.975" y1="-1.689" x2="-5.975" y2="1.689" width="0.1524" layer="21"/>
+<wire x1="5.721" y1="1.943" x2="-5.66" y2="1.943" width="0.1524" layer="21"/>
+<wire x1="5.721" y1="-1.943" x2="-5.66" y2="-1.943" width="0.1524" layer="21"/>
+<wire x1="5.975" y1="-1.689" x2="5.975" y2="1.689" width="0.1524" layer="21"/>
+<pad name="1" x="-7.5" y="0" drill="0.8" shape="octagon"/>
+<pad name="2" x="7.5" y="0" drill="0.8" shape="octagon"/>
+<text x="-2.5" y="-3.3" size="1" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="-2.3" y="-0.4" size="1" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<wire x1="-6.5" y1="2.2" x2="6.5" y2="2.2" width="0.15" layer="39"/>
+<wire x1="6.5" y1="2.2" x2="6.5" y2="-2.2" width="0.15" layer="39"/>
+<wire x1="6.5" y1="-2.2" x2="-6.5" y2="-2.2" width="0.15" layer="39"/>
+<wire x1="-6.5" y1="-2.2" x2="-6.5" y2="2.2" width="0.15" layer="39"/>
+<rectangle x1="-6.6" y1="-0.3" x2="-6" y2="0.3" layer="21"/>
+<rectangle x1="6" y1="-0.3" x2="6.6" y2="0.3" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="C_POL">
@@ -1982,6 +2006,22 @@ date: 2018-12-15</description>
 </technology>
 </technologies>
 </device>
+<device name="_T_PTF65_PITCH_15MM" package="T_VISHAY_PTF65_PITCH_15MM">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="YES"/>
+<attribute name="COMMISSIONED" value="2019-05-23"/>
+<attribute name="FUNCTION" value="" constant="no"/>
+<attribute name="PART_CODE_BEL" value="R_PAC_T_VISHAY_PTF65_PITCH_15mm_VAL_" constant="no"/>
+<attribute name="PART_CODE_EXT" value="" constant="no"/>
+<attribute name="UPDATED" value=""/>
+</technology>
+</technologies>
+</device>
 </devices>
 </deviceset>
 <deviceset name="RA" prefix="R" uservalue="yes">
@@ -2179,44 +2219,16 @@ date: 2013-03-25</description>
 <library name="be_con_jump">
 <description>connectors, jumpers, test points &lt;br&gt;</description>
 <packages>
-<package name="S_NET_CHANGER_0.15MM">
-<description>used to connect nets with different names&lt;br&gt;
-NOTE 1: Export additional layer 53/54 when generating CAM files !&lt;br&gt;
-NOTE 2: Optionally delete name tag in layout, to remove it from silk screen !&lt;br&gt;
-drawn: Mario Blunk / Blunk electronic&lt;br&gt;
-edited: 2014-11-06</description>
-<smd name="1" x="-0.3" y="0" dx="0.15" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="2" x="0.3" y="0" dx="0.15" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<text x="-1" y="0.2" size="0.5" layer="25" font="vector" ratio="13">&gt;NAME</text>
-<wire x1="-0.47" y1="0.09" x2="0.47" y2="0.09" width="0" layer="41"/>
-<wire x1="-0.47" y1="-0.09" x2="0.47" y2="-0.09" width="0" layer="41"/>
-<wire x1="-0.2" y1="0" x2="0.2" y2="0" width="0.15" layer="53"/>
-</package>
 <package name="S_NET_CHANGER_0.3MM">
 <description>used to connect nets with different names&lt;br&gt;
-NOTE 1: Export additional layer 53/54 when generating CAM files !&lt;br&gt;
-NOTE 2: Optionally delete name tag in layout, to remove it from silk screen !&lt;br&gt;
-drawn: Mario Blunk / Blunk electronic&lt;br&gt;
-edited: 2014-11-06</description>
+IMPORTANT: Export additional layers 53/54 when generating CAM files !
+edited: Mario Blunk / Blunk electronic&lt;br&gt;
+date: 2019-05-26</description>
 <smd name="1" x="-0.3" y="0" dx="0.3" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
 <smd name="2" x="0.3" y="0" dx="0.3" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
-<text x="-1.1" y="0.3" size="0.5" layer="25" font="vector" ratio="13">&gt;NAME</text>
 <wire x1="-0.44" y1="0.16" x2="0.44" y2="0.16" width="0" layer="41"/>
 <wire x1="-0.44" y1="-0.16" x2="0.44" y2="-0.16" width="0" layer="41"/>
 <wire x1="-0.2" y1="0" x2="0.2" y2="0" width="0.3" layer="53"/>
-</package>
-<package name="S_NET_CHANGER_1MM">
-<description>used to connect nets with different names&lt;br&gt;
-NOTE 1: Export additional layer 53/54 when generating CAM files !&lt;br&gt;
-NOTE 2: Optionally delete name tag in layout, to remove it from silk screen !&lt;br&gt;
-drawn: Mario Blunk / Blunk electronic&lt;br&gt;
-edited: 2014-11-13</description>
-<smd name="1" x="-0.6" y="0" dx="1" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
-<smd name="2" x="0.6" y="0" dx="1" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
-<text x="-1.1" y="0.6" size="0.5" layer="25" font="vector" ratio="13">&gt;NAME</text>
-<wire x1="-1.04" y1="0.56" x2="1.04" y2="0.56" width="0" layer="41"/>
-<wire x1="-0.2" y1="0" x2="0.2" y2="0" width="1" layer="53"/>
-<wire x1="-1.04" y1="-0.54" x2="1.04" y2="-0.54" width="0" layer="41"/>
 </package>
 <package name="T_TEST_POINT_SMALL">
 <description>edited: Mario Blunk / Blunk electronic&lt;br&gt;
@@ -2284,9 +2296,9 @@ drawn: Mario Blunk / Blunk electronic</description>
 <wire x1="-1.25" y1="-2.5" x2="-0.75" y2="-3" width="0.15" layer="51"/>
 <wire x1="-1.25" y1="-2.5" x2="-1.75" y2="-3" width="0.15" layer="51"/>
 </package>
-<package name="T_MALE_2X13_VERTICAL_GRID_2.54MM">
+<package name="T_MALE_2X13_VERTICAL_PITCH_2MM54">
 <description>edited: Mario Blunk&lt;br&gt;
-date: 2015-02-03</description>
+date: 2019-02-11</description>
 <wire x1="-16.47" y1="-1.905" x2="-15.835" y2="-2.54" width="0.1524" layer="21"/>
 <wire x1="-14.565" y1="-2.54" x2="-13.93" y2="-1.905" width="0.1524" layer="21"/>
 <wire x1="-13.93" y1="-1.905" x2="-13.295" y2="-2.54" width="0.1524" layer="21"/>
@@ -2494,6 +2506,28 @@ date: 2013-03-21</description>
 <wire x1="2.5" y1="2" x2="2.5" y2="-2" width="0.254" layer="39"/>
 <wire x1="2.5" y1="-2" x2="-2.5" y2="-2" width="0.254" layer="39"/>
 <wire x1="-2.5" y1="-2" x2="-2.5" y2="2" width="0.254" layer="39"/>
+</package>
+<package name="S_NET_CHANGER_0.15MM">
+<description>used to connect nets with different names&lt;br&gt;
+IMPORTANT: Export additional layers 53/54 when generating CAM files !
+edited: Mario Blunk / Blunk electronic&lt;br&gt;
+date: 2019-05-26</description>
+<smd name="1" x="-0.3" y="0" dx="0.15" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="2" x="0.3" y="0" dx="0.15" dy="0.3" layer="1" rot="R90" stop="no" cream="no"/>
+<wire x1="-0.47" y1="0.09" x2="0.47" y2="0.09" width="0" layer="41"/>
+<wire x1="-0.47" y1="-0.09" x2="0.47" y2="-0.09" width="0" layer="41"/>
+<wire x1="-0.2" y1="0" x2="0.2" y2="0" width="0.15" layer="53"/>
+</package>
+<package name="S_NET_CHANGER_1MM">
+<description>used to connect nets with different names&lt;br&gt;
+IMPORTANT: Export additional layers 53/54 when generating CAM files !
+edited: Mario Blunk / Blunk electronic&lt;br&gt;
+date: 2019-05-26</description>
+<smd name="1" x="-0.6" y="0" dx="1" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
+<smd name="2" x="0.6" y="0" dx="1" dy="1" layer="1" rot="R90" stop="no" cream="no"/>
+<wire x1="-1.04" y1="0.56" x2="1.04" y2="0.56" width="0" layer="41"/>
+<wire x1="-0.2" y1="0" x2="0.2" y2="0" width="1" layer="53"/>
+<wire x1="-1.04" y1="-0.54" x2="1.04" y2="-0.54" width="0" layer="41"/>
 </package>
 </packages>
 <symbols>
@@ -2754,7 +2788,7 @@ drawn: Mario Blunk / Blunk electronic</description>
 <gate name="G$1" symbol="MALE_2X13" x="0" y="0"/>
 </gates>
 <devices>
-<device name="-T-VERTICAL_2.54MM" package="T_MALE_2X13_VERTICAL_GRID_2.54MM">
+<device name="-T-VERTICAL_PITCH_2MM54" package="T_MALE_2X13_VERTICAL_PITCH_2MM54">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="10" pad="10"/>
@@ -2788,7 +2822,7 @@ drawn: Mario Blunk / Blunk electronic</description>
 <attribute name="BOM" value="YES"/>
 <attribute name="COMMISSIONED" value="2015-02-03"/>
 <attribute name="FUNCTION" value="" constant="no"/>
-<attribute name="PART_CODE_BEL" value="X_PAC_T_MALE_2X13_VERTICAL_GRID_2.54mm" constant="no"/>
+<attribute name="PART_CODE_BEL" value="X_PAC_T_MALE_2X13_VERTICAL_PITCH_2mm54" constant="no"/>
 <attribute name="PART_CODE_EXT" value="" constant="no"/>
 <attribute name="UPDATED" value=""/>
 </technology>
@@ -3240,8 +3274,8 @@ date: 2015-01-21</description>
 <wire x1="-0.8" y1="-1.8" x2="-0.8" y2="1.8" width="0.1" layer="39"/>
 </package>
 <package name="T_ROUND_3MM">
-<description>edited: Mario Blunk&lt;br&gt;
-date: 2014-10-14</description>
+<description>edited: Mario Blunk / Blunk electronic&lt;br&gt;
+date: 2019-08-07</description>
 <wire x1="1.5748" y1="-1.27" x2="1.5748" y2="1.27" width="0.254" layer="51"/>
 <wire x1="-1.524" y1="0" x2="-1.1708" y2="0.9756" width="0.1524" layer="51" curve="-39.80361"/>
 <wire x1="-1.524" y1="0" x2="-1.1391" y2="-1.0125" width="0.1524" layer="51" curve="41.633208"/>
@@ -3267,13 +3301,33 @@ date: 2014-10-14</description>
 <text x="2.5" y="-1.5" size="1" layer="27" font="vector" ratio="15">&gt;VALUE</text>
 <circle x="0" y="0" radius="2.549509375" width="0.15" layer="39"/>
 </package>
+<package name="T_ROUND_5MM">
+<description>edited: Mario Blunk / Blunk electronic &lt;br&gt;
+date: 2019-08-07</description>
+<wire x1="-0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="-90"/>
+<wire x1="-1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0" y1="-0.635" x2="0.635" y2="0" width="0.1524" layer="51" curve="90"/>
+<wire x1="0" y1="-1.016" x2="1.016" y2="0" width="0.1524" layer="51" curve="90"/>
+<pad name="A" x="-1.27" y="0" drill="0.8" shape="octagon"/>
+<pad name="C" x="1.27" y="0" drill="0.8" shape="octagon"/>
+<text x="2.5" y="0" size="1" layer="25" font="vector" ratio="15">&gt;NAME</text>
+<text x="2.5" y="-1.5" size="1" layer="27" font="vector" ratio="15">&gt;VALUE</text>
+<circle x="0" y="0" radius="3.5" width="0.15" layer="39"/>
+<wire x1="0" y1="-3" x2="0" y2="3" width="0.15" layer="21" curve="-180"/>
+<wire x1="0" y1="3" x2="2.2" y2="2" width="0.15" layer="21" curve="-47.726311"/>
+<wire x1="0" y1="-3" x2="2.2" y2="-2" width="0.15" layer="21" curve="47.726311"/>
+<wire x1="2.2" y1="2" x2="2.2" y2="1.2" width="0.15" layer="21"/>
+<wire x1="2.2" y1="1.2" x2="2.2" y2="-1.2" width="0.15" layer="21"/>
+<wire x1="2.2" y1="-1.2" x2="2.2" y2="-2" width="0.15" layer="21"/>
+<wire x1="0" y1="-2.5" x2="0" y2="2.5" width="0.15" layer="21" curve="-180"/>
+<wire x1="0" y1="-2.5" x2="2.2" y2="-1.2" width="0.15" layer="21" curve="61.38954"/>
+<wire x1="0" y1="2.5" x2="2.2" y2="1.2" width="0.15" layer="21" curve="-61.38954"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
-<description>LED symbol&lt;br&gt;
-edited: Mario Blunk / Blunk electronic &lt;br&gt;
-date: 2013-03-25&lt;br&gt;
-edited: 2013-07-17 / all fonts changed to "fixed" / Mario Blunk&lt;br&gt;</description>
+<description>edited: Mario Blunk / Blunk electronic &lt;br&gt;
+date: 2019-05-21</description>
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
@@ -3296,13 +3350,13 @@ edited: 2013-07-17 / all fonts changed to "fixed" / Mario Blunk&lt;br&gt;</descr
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
 <text x="2.54" y="-0.635" size="1.27" layer="95" font="fixed">&gt;NAME</text>
-<text x="2.54" y="-2.54" size="1.27" layer="96" font="fixed">&gt;VALUE</text>
+<text x="2.54" y="-4.445" size="1.27" layer="96" font="fixed">&gt;VALUE</text>
+<text x="2.54" y="-2.54" size="1.27" layer="95" font="fixed">&gt;FUNCTION</text>
 </symbol>
 </symbols>
 <devicesets>
 <deviceset name="LED" prefix="LED" uservalue="yes">
-<description>single LED device&lt;br&gt;
-drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
+<description>edite: Mario Blunk / Blunk electronic</description>
 <gates>
 <gate name="G$1" symbol="LED" x="0" y="2.54"/>
 </gates>
@@ -3334,6 +3388,22 @@ drawn: Mario Blunk / Blunk electronic&lt;br&gt;</description>
 <attribute name="COMMISSIONED" value="2014-10-14"/>
 <attribute name="FUNCTION" value="" constant="no"/>
 <attribute name="PART_CODE_BEL" value="LED_PAC_T_ROUND_3mm_VAL_" constant="no"/>
+<attribute name="PART_CODE_EXT" value="" constant="no"/>
+<attribute name="UPDATED" value=""/>
+</technology>
+</technologies>
+</device>
+<device name="_T_ROUND_5MM" package="T_ROUND_5MM">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="BOM" value="YES"/>
+<attribute name="COMMISSIONED" value="2019-05-21"/>
+<attribute name="FUNCTION" value="" constant="no"/>
+<attribute name="PART_CODE_BEL" value="LED_PAC_T_ROUND_5mm_VAL_" constant="no"/>
 <attribute name="PART_CODE_EXT" value="" constant="no"/>
 <attribute name="UPDATED" value=""/>
 </technology>
@@ -3804,6 +3874,12 @@ date: 2018-12-09</description>
 </library>
 </libraries>
 <attributes>
+<attribute name="APPROVED" value=""/>
+<attribute name="CHECKED" value=""/>
+<attribute name="DRAWING_NUMBER" value="S001"/>
+<attribute name="DRAWN" value="Mario Blunk / Blunk electronic"/>
+<attribute name="PROJECT" value="LED-Matrix"/>
+<attribute name="STATUS" value="EDUCATION"/>
 </attributes>
 <variantdefs>
 </variantdefs>
@@ -3908,42 +3984,42 @@ date: 2018-12-09</description>
 <part name="LED703" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
 <attribute name="PURPOSE" value="RND3"/>
 </part>
-<part name="R704" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
+<part name="R707" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T704" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N704" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND15" library="be_supply" deviceset="GND" device=""/>
 <part name="LED704" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
 <attribute name="PURPOSE" value="RND4"/>
 </part>
-<part name="R705" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
+<part name="R708" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T705" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N705" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND16" library="be_supply" deviceset="GND" device=""/>
 <part name="LED705" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
 <attribute name="PURPOSE" value="RND5"/>
 </part>
-<part name="R706" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
+<part name="R709" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T706" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N706" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND17" library="be_supply" deviceset="GND" device=""/>
 <part name="LED706" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
 <attribute name="PURPOSE" value="RND6"/>
 </part>
-<part name="R707" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
+<part name="R713" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T707" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N707" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND18" library="be_supply" deviceset="GND" device=""/>
 <part name="LED707" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
 <attribute name="PURPOSE" value="RND7"/>
 </part>
-<part name="R708" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
+<part name="R714" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T708" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N708" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND19" library="be_supply" deviceset="GND" device=""/>
 <part name="LED708" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
 <attribute name="PURPOSE" value="RND8"/>
 </part>
-<part name="R709" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
+<part name="R715" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T709" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N709" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND20" library="be_supply" deviceset="GND" device=""/>
@@ -3972,28 +4048,28 @@ date: 2018-12-09</description>
 <part name="LED803" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
 <attribute name="PURPOSE" value="RND12"/>
 </part>
-<part name="R804" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
+<part name="R807" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T804" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N804" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND24" library="be_supply" deviceset="GND" device=""/>
 <part name="LED804" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
 <attribute name="PURPOSE" value="RND13"/>
 </part>
-<part name="R805" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
+<part name="R808" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T805" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N805" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND25" library="be_supply" deviceset="GND" device=""/>
 <part name="LED805" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
 <attribute name="PURPOSE" value="RND14"/>
 </part>
-<part name="R806" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
+<part name="R809" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T806" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N806" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND26" library="be_supply" deviceset="GND" device=""/>
 <part name="LED806" library="be_opt" deviceset="LED" device="_T_ROUND_3MM">
 <attribute name="PURPOSE" value="RND15"/>
 </part>
-<part name="R807" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
+<part name="R813" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="2k7"/>
 <part name="T807" library="be_transistor" deviceset="NPN" device="_T_TO92-CBE" value="BC548C"/>
 <part name="N807" library="be_con_jump" deviceset="NET_CHANGER" device="-S-0.3MM"/>
 <part name="GND27" library="be_supply" deviceset="GND" device=""/>
@@ -4136,57 +4212,57 @@ date: 2018-12-09</description>
 <part name="RPH901" library="be_rcl" deviceset="RPH" device="">
 <attribute name="FUNCTION" value="LIGHT SENSOR"/>
 </part>
-<part name="X1101" library="be_con_jump" deviceset="MALE_2X13" device="-T-VERTICAL_2.54MM">
+<part name="X1101" library="be_con_jump" deviceset="MALE_2X13" device="-T-VERTICAL_PITCH_2MM54">
 <attribute name="FUNCTION" value="RANDOM DATA OUT"/>
 </part>
 <part name="GND58" library="be_supply" deviceset="GND" device=""/>
 <part name="J1001" library="be_con_jump" deviceset="SOLDER_JUMPER" device="-N"/>
-<part name="R1" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<part name="R704" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_330"/>
 </part>
-<part name="R2" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<part name="R710" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_330"/>
 </part>
-<part name="R3" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<part name="R716" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_330"/>
 </part>
-<part name="R4" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<part name="R706" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_330"/>
 </part>
-<part name="R5" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<part name="R712" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_330"/>
 </part>
-<part name="R6" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<part name="R718" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_330"/>
 </part>
-<part name="R7" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<part name="R705" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_330"/>
 </part>
-<part name="R8" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<part name="R711" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_330"/>
 </part>
-<part name="R9" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<part name="R717" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_330"/>
 </part>
-<part name="R10" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<part name="R804" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_330"/>
 </part>
-<part name="R11" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<part name="R810" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_330"/>
 </part>
-<part name="R12" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<part name="R814" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_330"/>
 </part>
-<part name="R13" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<part name="R805" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_330"/>
 </part>
-<part name="R14" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<part name="R811" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_330"/>
 </part>
-<part name="R15" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<part name="R806" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_330"/>
 </part>
-<part name="R16" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<part name="R812" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_330"/>
 </part>
 </parts>
@@ -5389,57 +5465,57 @@ date: 2018-12-09</description>
 <instance part="LED703" gate="G$1" x="73.66" y="60.96">
 <attribute name="PURPOSE" x="76.2" y="62.23" size="1.27" layer="96" font="fixed"/>
 </instance>
-<instance part="R704" gate="G$1" x="137.16" y="139.7"/>
+<instance part="R707" gate="G$1" x="137.16" y="139.7"/>
 <instance part="T704" gate="G$1" x="147.32" y="139.7"/>
 <instance part="N704" gate="G$1" x="121.92" y="139.7"/>
 <instance part="GND15" gate="1" x="149.86" y="129.54"/>
 <instance part="LED704" gate="G$1" x="149.86" y="152.4">
 <attribute name="PURPOSE" x="152.4" y="153.67" size="1.27" layer="96" font="fixed"/>
 </instance>
-<instance part="R705" gate="G$1" x="137.16" y="93.98"/>
+<instance part="R708" gate="G$1" x="137.16" y="93.98"/>
 <instance part="T705" gate="G$1" x="147.32" y="93.98"/>
 <instance part="N705" gate="G$1" x="121.92" y="93.98"/>
 <instance part="GND16" gate="1" x="149.86" y="83.82"/>
 <instance part="LED705" gate="G$1" x="149.86" y="106.68">
 <attribute name="PURPOSE" x="152.4" y="107.95" size="1.27" layer="96" font="fixed"/>
 </instance>
-<instance part="R706" gate="G$1" x="137.16" y="48.26"/>
+<instance part="R709" gate="G$1" x="137.16" y="48.26"/>
 <instance part="T706" gate="G$1" x="147.32" y="48.26"/>
 <instance part="N706" gate="G$1" x="121.92" y="48.26"/>
 <instance part="GND17" gate="1" x="149.86" y="38.1"/>
 <instance part="LED706" gate="G$1" x="149.86" y="60.96">
 <attribute name="PURPOSE" x="152.4" y="62.23" size="1.27" layer="96" font="fixed"/>
 </instance>
-<instance part="R707" gate="G$1" x="210.82" y="139.7"/>
+<instance part="R713" gate="G$1" x="210.82" y="139.7"/>
 <instance part="T707" gate="G$1" x="220.98" y="139.7"/>
 <instance part="N707" gate="G$1" x="195.58" y="139.7"/>
 <instance part="GND18" gate="1" x="223.52" y="129.54"/>
 <instance part="LED707" gate="G$1" x="223.52" y="152.4">
 <attribute name="PURPOSE" x="226.06" y="153.67" size="1.27" layer="96" font="fixed"/>
 </instance>
-<instance part="R708" gate="G$1" x="210.82" y="93.98"/>
+<instance part="R714" gate="G$1" x="210.82" y="93.98"/>
 <instance part="T708" gate="G$1" x="220.98" y="93.98"/>
 <instance part="N708" gate="G$1" x="195.58" y="93.98"/>
 <instance part="GND19" gate="1" x="223.52" y="83.82"/>
 <instance part="LED708" gate="G$1" x="223.52" y="106.68">
 <attribute name="PURPOSE" x="226.06" y="107.95" size="1.27" layer="96" font="fixed"/>
 </instance>
-<instance part="R709" gate="G$1" x="210.82" y="48.26"/>
+<instance part="R715" gate="G$1" x="210.82" y="48.26"/>
 <instance part="T709" gate="G$1" x="220.98" y="48.26"/>
 <instance part="N709" gate="G$1" x="195.58" y="48.26"/>
 <instance part="GND20" gate="1" x="223.52" y="38.1"/>
 <instance part="LED709" gate="G$1" x="223.52" y="60.96">
 <attribute name="PURPOSE" x="226.06" y="62.23" size="1.27" layer="96" font="fixed"/>
 </instance>
-<instance part="R1" gate="G$1" x="73.66" y="162.56" rot="R270"/>
-<instance part="R2" gate="G$1" x="149.86" y="162.56" rot="R270"/>
-<instance part="R3" gate="G$1" x="223.52" y="162.56" rot="R270"/>
-<instance part="R4" gate="G$1" x="73.66" y="71.12" rot="R270"/>
-<instance part="R5" gate="G$1" x="149.86" y="71.12" rot="R270"/>
-<instance part="R6" gate="G$1" x="223.52" y="71.12" rot="R270"/>
-<instance part="R7" gate="G$1" x="73.66" y="116.84" rot="R270"/>
-<instance part="R8" gate="G$1" x="149.86" y="116.84" rot="R270"/>
-<instance part="R9" gate="G$1" x="223.52" y="116.84" rot="R270"/>
+<instance part="R704" gate="G$1" x="73.66" y="162.56" rot="R270"/>
+<instance part="R710" gate="G$1" x="149.86" y="162.56" rot="R270"/>
+<instance part="R716" gate="G$1" x="223.52" y="162.56" rot="R270"/>
+<instance part="R706" gate="G$1" x="73.66" y="71.12" rot="R270"/>
+<instance part="R712" gate="G$1" x="149.86" y="71.12" rot="R270"/>
+<instance part="R718" gate="G$1" x="223.52" y="71.12" rot="R270"/>
+<instance part="R705" gate="G$1" x="73.66" y="116.84" rot="R270"/>
+<instance part="R711" gate="G$1" x="149.86" y="116.84" rot="R270"/>
+<instance part="R717" gate="G$1" x="223.52" y="116.84" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -5519,56 +5595,56 @@ date: 2018-12-09</description>
 <segment>
 <wire x1="73.66" y1="170.18" x2="60.96" y2="170.18" width="0.1524" layer="91"/>
 <label x="61.595" y="170.815" size="1.27" layer="95" font="fixed"/>
-<pinref part="R1" gate="G$1" pin="1"/>
+<pinref part="R704" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="170.18" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="149.86" y1="170.18" x2="137.16" y2="170.18" width="0.1524" layer="91"/>
 <label x="137.795" y="170.815" size="1.27" layer="95" font="fixed"/>
 <wire x1="149.86" y1="170.18" x2="149.86" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R710" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="170.18" x2="210.82" y2="170.18" width="0.1524" layer="91"/>
 <label x="211.455" y="170.815" size="1.27" layer="95" font="fixed"/>
 <wire x1="223.52" y1="170.18" x2="223.52" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
+<pinref part="R716" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="73.66" y1="78.74" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
 <label x="61.595" y="79.375" size="1.27" layer="95" font="fixed"/>
-<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R706" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="78.74" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="149.86" y1="78.74" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
 <label x="137.795" y="79.375" size="1.27" layer="95" font="fixed"/>
 <wire x1="149.86" y1="78.74" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R5" gate="G$1" pin="1"/>
+<pinref part="R712" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="78.74" x2="210.82" y2="78.74" width="0.1524" layer="91"/>
 <label x="211.455" y="79.375" size="1.27" layer="95" font="fixed"/>
 <wire x1="223.52" y1="78.74" x2="223.52" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R718" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="73.66" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
 <label x="61.595" y="125.095" size="1.27" layer="95" font="fixed"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R705" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="124.46" x2="73.66" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="149.86" y1="124.46" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
 <label x="137.795" y="125.095" size="1.27" layer="95" font="fixed"/>
 <wire x1="149.86" y1="124.46" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="R8" gate="G$1" pin="1"/>
+<pinref part="R711" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="124.46" x2="210.82" y2="124.46" width="0.1524" layer="91"/>
 <label x="211.455" y="125.095" size="1.27" layer="95" font="fixed"/>
 <wire x1="223.52" y1="124.46" x2="223.52" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="R9" gate="G$1" pin="1"/>
+<pinref part="R717" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="DRV_IN_B2" class="0">
@@ -5621,14 +5697,14 @@ date: 2018-12-09</description>
 </net>
 <net name="DRV_IN_B4" class="0">
 <segment>
-<pinref part="R704" gate="G$1" pin="2"/>
+<pinref part="R707" gate="G$1" pin="2"/>
 <pinref part="T704" gate="G$1" pin="B"/>
 <wire x1="142.24" y1="139.7" x2="144.78" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DRV_IN_4" class="0">
 <segment>
-<pinref part="R704" gate="G$1" pin="1"/>
+<pinref part="R707" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="139.7" x2="129.54" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="N704" gate="G$1" pin="2"/>
 </segment>
@@ -5645,14 +5721,14 @@ date: 2018-12-09</description>
 </net>
 <net name="DRV_IN_B5" class="0">
 <segment>
-<pinref part="R705" gate="G$1" pin="2"/>
+<pinref part="R708" gate="G$1" pin="2"/>
 <pinref part="T705" gate="G$1" pin="B"/>
 <wire x1="142.24" y1="93.98" x2="144.78" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DRV_IN_5" class="0">
 <segment>
-<pinref part="R705" gate="G$1" pin="1"/>
+<pinref part="R708" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="N705" gate="G$1" pin="2"/>
 </segment>
@@ -5669,14 +5745,14 @@ date: 2018-12-09</description>
 </net>
 <net name="DRV_IN_B6" class="0">
 <segment>
-<pinref part="R706" gate="G$1" pin="2"/>
+<pinref part="R709" gate="G$1" pin="2"/>
 <pinref part="T706" gate="G$1" pin="B"/>
 <wire x1="142.24" y1="48.26" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DRV_IN_6" class="0">
 <segment>
-<pinref part="R706" gate="G$1" pin="1"/>
+<pinref part="R709" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="48.26" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="N706" gate="G$1" pin="2"/>
 </segment>
@@ -5693,14 +5769,14 @@ date: 2018-12-09</description>
 </net>
 <net name="DRV_IN_B7" class="0">
 <segment>
-<pinref part="R707" gate="G$1" pin="2"/>
+<pinref part="R713" gate="G$1" pin="2"/>
 <pinref part="T707" gate="G$1" pin="B"/>
 <wire x1="215.9" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DRV_IN_7" class="0">
 <segment>
-<pinref part="R707" gate="G$1" pin="1"/>
+<pinref part="R713" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="139.7" x2="203.2" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="N707" gate="G$1" pin="2"/>
 </segment>
@@ -5717,14 +5793,14 @@ date: 2018-12-09</description>
 </net>
 <net name="DRV_IN_B8" class="0">
 <segment>
-<pinref part="R708" gate="G$1" pin="2"/>
+<pinref part="R714" gate="G$1" pin="2"/>
 <pinref part="T708" gate="G$1" pin="B"/>
 <wire x1="215.9" y1="93.98" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DRV_IN_8" class="0">
 <segment>
-<pinref part="R708" gate="G$1" pin="1"/>
+<pinref part="R714" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="93.98" x2="203.2" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="N708" gate="G$1" pin="2"/>
 </segment>
@@ -5741,14 +5817,14 @@ date: 2018-12-09</description>
 </net>
 <net name="DRV_IN_B9" class="0">
 <segment>
-<pinref part="R709" gate="G$1" pin="2"/>
+<pinref part="R715" gate="G$1" pin="2"/>
 <pinref part="T709" gate="G$1" pin="B"/>
 <wire x1="215.9" y1="48.26" x2="218.44" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DRV_IN_9" class="0">
 <segment>
-<pinref part="R709" gate="G$1" pin="1"/>
+<pinref part="R715" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="48.26" x2="203.2" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="N709" gate="G$1" pin="2"/>
 </segment>
@@ -5829,62 +5905,62 @@ date: 2018-12-09</description>
 <net name="DRV_OUT_A_1" class="0">
 <segment>
 <pinref part="LED701" gate="G$1" pin="A"/>
-<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="R704" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="157.48" x2="73.66" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DRV_OUT_A_4" class="0">
 <segment>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R710" gate="G$1" pin="2"/>
 <pinref part="LED704" gate="G$1" pin="A"/>
 <wire x1="149.86" y1="157.48" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DRV_OUT_A_7" class="0">
 <segment>
-<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="R716" gate="G$1" pin="2"/>
 <pinref part="LED707" gate="G$1" pin="A"/>
 <wire x1="223.52" y1="157.48" x2="223.52" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DRV_OUT_A_3" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="R706" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="66.04" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="LED703" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="DRV_OUT_A_6" class="0">
 <segment>
-<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="R712" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="66.04" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="LED706" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="DRV_OUT_A_9" class="0">
 <segment>
-<pinref part="R6" gate="G$1" pin="2"/>
+<pinref part="R718" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="66.04" x2="223.52" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="LED709" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="DRV_OUT_A_2" class="0">
 <segment>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R705" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="111.76" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="LED702" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="DRV_OUT_A_5" class="0">
 <segment>
-<pinref part="R8" gate="G$1" pin="2"/>
+<pinref part="R711" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="111.76" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="LED705" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="DRV_OUT_A_8" class="0">
 <segment>
-<pinref part="R9" gate="G$1" pin="2"/>
+<pinref part="R717" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="111.76" x2="223.52" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="LED708" gate="G$1" pin="A"/>
 </segment>
@@ -5917,41 +5993,41 @@ date: 2018-12-09</description>
 <instance part="LED803" gate="G$1" x="73.66" y="60.96">
 <attribute name="PURPOSE" x="76.2" y="62.23" size="1.27" layer="96" font="fixed"/>
 </instance>
-<instance part="R804" gate="G$1" x="137.16" y="139.7"/>
+<instance part="R807" gate="G$1" x="137.16" y="139.7"/>
 <instance part="T804" gate="G$1" x="147.32" y="139.7"/>
 <instance part="N804" gate="G$1" x="121.92" y="139.7"/>
 <instance part="GND24" gate="1" x="149.86" y="129.54"/>
 <instance part="LED804" gate="G$1" x="149.86" y="152.4">
 <attribute name="PURPOSE" x="152.4" y="153.67" size="1.27" layer="96" font="fixed"/>
 </instance>
-<instance part="R805" gate="G$1" x="137.16" y="93.98"/>
+<instance part="R808" gate="G$1" x="137.16" y="93.98"/>
 <instance part="T805" gate="G$1" x="147.32" y="93.98"/>
 <instance part="N805" gate="G$1" x="121.92" y="93.98"/>
 <instance part="GND25" gate="1" x="149.86" y="83.82"/>
 <instance part="LED805" gate="G$1" x="149.86" y="106.68">
 <attribute name="PURPOSE" x="152.4" y="107.95" size="1.27" layer="96" font="fixed"/>
 </instance>
-<instance part="R806" gate="G$1" x="137.16" y="48.26"/>
+<instance part="R809" gate="G$1" x="137.16" y="48.26"/>
 <instance part="T806" gate="G$1" x="147.32" y="48.26"/>
 <instance part="N806" gate="G$1" x="121.92" y="48.26"/>
 <instance part="GND26" gate="1" x="149.86" y="38.1"/>
 <instance part="LED806" gate="G$1" x="149.86" y="60.96">
 <attribute name="PURPOSE" x="152.4" y="62.23" size="1.27" layer="96" font="fixed"/>
 </instance>
-<instance part="R807" gate="G$1" x="210.82" y="139.7"/>
+<instance part="R813" gate="G$1" x="210.82" y="139.7"/>
 <instance part="T807" gate="G$1" x="220.98" y="139.7"/>
 <instance part="N807" gate="G$1" x="195.58" y="139.7"/>
 <instance part="GND27" gate="1" x="223.52" y="129.54"/>
 <instance part="LED807" gate="G$1" x="223.52" y="152.4">
 <attribute name="PURPOSE" x="226.06" y="153.67" size="1.27" layer="96" font="fixed"/>
 </instance>
-<instance part="R10" gate="G$1" x="73.66" y="162.56" rot="R270"/>
-<instance part="R11" gate="G$1" x="149.86" y="162.56" rot="R270"/>
-<instance part="R12" gate="G$1" x="223.52" y="162.56" rot="R270"/>
-<instance part="R13" gate="G$1" x="73.66" y="116.84" rot="R270"/>
-<instance part="R14" gate="G$1" x="149.86" y="116.84" rot="R270"/>
-<instance part="R15" gate="G$1" x="73.66" y="71.12" rot="R270"/>
-<instance part="R16" gate="G$1" x="149.86" y="71.12" rot="R270"/>
+<instance part="R804" gate="G$1" x="73.66" y="162.56" rot="R270"/>
+<instance part="R810" gate="G$1" x="149.86" y="162.56" rot="R270"/>
+<instance part="R814" gate="G$1" x="223.52" y="162.56" rot="R270"/>
+<instance part="R805" gate="G$1" x="73.66" y="116.84" rot="R270"/>
+<instance part="R811" gate="G$1" x="149.86" y="116.84" rot="R270"/>
+<instance part="R806" gate="G$1" x="73.66" y="71.12" rot="R270"/>
+<instance part="R812" gate="G$1" x="149.86" y="71.12" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -6021,44 +6097,44 @@ date: 2018-12-09</description>
 <segment>
 <wire x1="73.66" y1="170.18" x2="60.96" y2="170.18" width="0.1524" layer="91"/>
 <label x="61.595" y="170.815" size="1.27" layer="95" font="fixed"/>
-<pinref part="R10" gate="G$1" pin="1"/>
+<pinref part="R804" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="170.18" x2="73.66" y2="167.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="149.86" y1="170.18" x2="137.16" y2="170.18" width="0.1524" layer="91"/>
 <label x="137.795" y="170.815" size="1.27" layer="95" font="fixed"/>
 <wire x1="149.86" y1="170.18" x2="149.86" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R810" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="223.52" y1="170.18" x2="210.82" y2="170.18" width="0.1524" layer="91"/>
 <label x="211.455" y="170.815" size="1.27" layer="95" font="fixed"/>
 <wire x1="223.52" y1="170.18" x2="223.52" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="R12" gate="G$1" pin="1"/>
+<pinref part="R814" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="73.66" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
 <label x="61.595" y="125.095" size="1.27" layer="95" font="fixed"/>
-<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R805" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="124.46" x2="73.66" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="149.86" y1="124.46" x2="137.16" y2="124.46" width="0.1524" layer="91"/>
 <label x="137.795" y="125.095" size="1.27" layer="95" font="fixed"/>
 <wire x1="149.86" y1="124.46" x2="149.86" y2="121.92" width="0.1524" layer="91"/>
-<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R811" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="73.66" y1="78.74" x2="60.96" y2="78.74" width="0.1524" layer="91"/>
-<label x="61.595" y="81.915" size="1.27" layer="95" font="fixed"/>
-<pinref part="R15" gate="G$1" pin="1"/>
+<label x="61.595" y="79.375" size="1.27" layer="95" font="fixed"/>
+<pinref part="R806" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="78.74" x2="73.66" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="149.86" y1="78.74" x2="137.16" y2="78.74" width="0.1524" layer="91"/>
-<label x="137.795" y="81.915" size="1.27" layer="95" font="fixed"/>
+<label x="137.795" y="79.375" size="1.27" layer="95" font="fixed"/>
 <wire x1="149.86" y1="78.74" x2="149.86" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R812" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="DRV_IN_B11" class="0">
@@ -6111,14 +6187,14 @@ date: 2018-12-09</description>
 </net>
 <net name="DRV_IN_B13" class="0">
 <segment>
-<pinref part="R804" gate="G$1" pin="2"/>
+<pinref part="R807" gate="G$1" pin="2"/>
 <pinref part="T804" gate="G$1" pin="B"/>
 <wire x1="142.24" y1="139.7" x2="144.78" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DRV_IN_13" class="0">
 <segment>
-<pinref part="R804" gate="G$1" pin="1"/>
+<pinref part="R807" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="139.7" x2="129.54" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="N804" gate="G$1" pin="2"/>
 </segment>
@@ -6135,14 +6211,14 @@ date: 2018-12-09</description>
 </net>
 <net name="DRV_IN_B14" class="0">
 <segment>
-<pinref part="R805" gate="G$1" pin="2"/>
+<pinref part="R808" gate="G$1" pin="2"/>
 <pinref part="T805" gate="G$1" pin="B"/>
 <wire x1="142.24" y1="93.98" x2="144.78" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DRV_IN_14" class="0">
 <segment>
-<pinref part="R805" gate="G$1" pin="1"/>
+<pinref part="R808" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="N805" gate="G$1" pin="2"/>
 </segment>
@@ -6159,14 +6235,14 @@ date: 2018-12-09</description>
 </net>
 <net name="DRV_IN_B15" class="0">
 <segment>
-<pinref part="R806" gate="G$1" pin="2"/>
+<pinref part="R809" gate="G$1" pin="2"/>
 <pinref part="T806" gate="G$1" pin="B"/>
 <wire x1="142.24" y1="48.26" x2="144.78" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DRV_IN_15" class="0">
 <segment>
-<pinref part="R806" gate="G$1" pin="1"/>
+<pinref part="R809" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="48.26" x2="129.54" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="N806" gate="G$1" pin="2"/>
 </segment>
@@ -6183,14 +6259,14 @@ date: 2018-12-09</description>
 </net>
 <net name="DRV_IN_B16" class="0">
 <segment>
-<pinref part="R807" gate="G$1" pin="2"/>
+<pinref part="R813" gate="G$1" pin="2"/>
 <pinref part="T807" gate="G$1" pin="B"/>
 <wire x1="215.9" y1="139.7" x2="218.44" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DRV_IN_16" class="0">
 <segment>
-<pinref part="R807" gate="G$1" pin="1"/>
+<pinref part="R813" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="139.7" x2="203.2" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="N807" gate="G$1" pin="2"/>
 </segment>
@@ -6256,49 +6332,49 @@ date: 2018-12-09</description>
 </net>
 <net name="DRV_OUT_A_10" class="0">
 <segment>
-<pinref part="R10" gate="G$1" pin="2"/>
+<pinref part="R804" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="157.48" x2="73.66" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="LED801" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="DRV_OUT_A_13" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R810" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="157.48" x2="149.86" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="LED804" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="DRV_OUT_A_16" class="0">
 <segment>
-<pinref part="R12" gate="G$1" pin="2"/>
+<pinref part="R814" gate="G$1" pin="2"/>
 <wire x1="223.52" y1="157.48" x2="223.52" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="LED807" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="DRV_OUT_A_11" class="0">
 <segment>
-<pinref part="R13" gate="G$1" pin="2"/>
+<pinref part="R805" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="111.76" x2="73.66" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="LED802" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="DRV_OUT_A_14" class="0">
 <segment>
-<pinref part="R14" gate="G$1" pin="2"/>
+<pinref part="R811" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="111.76" x2="149.86" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="LED805" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="DRV_OUT_A_12" class="0">
 <segment>
-<pinref part="R15" gate="G$1" pin="2"/>
+<pinref part="R806" gate="G$1" pin="2"/>
 <wire x1="73.66" y1="66.04" x2="73.66" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="LED803" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="DRV_OUT_A_15" class="0">
 <segment>
-<pinref part="R16" gate="G$1" pin="2"/>
+<pinref part="R812" gate="G$1" pin="2"/>
 <wire x1="149.86" y1="66.04" x2="149.86" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="LED806" gate="G$1" pin="A"/>
 </segment>
@@ -6854,25 +6930,25 @@ date: 2018-12-09</description>
 <approved hash="113,6,161.925,88.0876,TP601,,,,,"/>
 <approved hash="113,2,63.5,135.713,TP201,,,,,"/>
 <approved hash="113,7,76.6559,151.13,LED701,,,,,"/>
-<approved hash="113,7,76.6559,113.03,LED702,,,,,"/>
-<approved hash="113,7,76.6559,72.39,LED703,,,,,"/>
+<approved hash="113,7,76.6559,105.41,LED702,,,,,"/>
+<approved hash="113,7,76.6559,59.69,LED703,,,,,"/>
 <approved hash="113,7,152.856,151.13,LED704,,,,,"/>
-<approved hash="113,7,152.856,113.03,LED705,,,,,"/>
-<approved hash="113,7,152.856,72.39,LED706,,,,,"/>
+<approved hash="113,7,152.856,105.41,LED705,,,,,"/>
+<approved hash="113,7,152.856,59.69,LED706,,,,,"/>
 <approved hash="113,7,226.516,151.13,LED707,,,,,"/>
-<approved hash="113,7,226.516,113.03,LED708,,,,,"/>
-<approved hash="113,7,226.516,72.39,LED709,,,,,"/>
-<approved hash="113,8,69.0359,156.21,LED801,,,,,"/>
-<approved hash="113,8,69.0359,118.11,LED802,,,,,"/>
-<approved hash="113,8,69.0359,77.47,LED803,,,,,"/>
-<approved hash="113,8,145.236,156.21,LED804,,,,,"/>
-<approved hash="113,8,145.236,118.11,LED805,,,,,"/>
-<approved hash="113,8,145.236,77.47,LED806,,,,,"/>
-<approved hash="113,8,216.356,156.21,LED807,,,,,"/>
+<approved hash="113,7,226.516,105.41,LED708,,,,,"/>
+<approved hash="113,7,226.516,59.69,LED709,,,,,"/>
+<approved hash="113,8,76.6559,151.13,LED801,,,,,"/>
+<approved hash="113,8,76.6559,105.41,LED802,,,,,"/>
+<approved hash="113,8,76.6559,59.69,LED803,,,,,"/>
+<approved hash="113,8,152.856,151.13,LED804,,,,,"/>
+<approved hash="113,8,152.856,105.41,LED805,,,,,"/>
+<approved hash="113,8,152.856,59.69,LED806,,,,,"/>
+<approved hash="113,8,226.516,151.13,LED807,,,,,"/>
 <approved hash="113,3,63.5,135.713,TP301,,,,,"/>
 <approved hash="113,4,63.5,135.713,TP401,,,,,"/>
 <approved hash="113,5,63.5,135.713,TP501,,,,,"/>
-<approved hash="113,9,104.242,116.84,RPH901,,,,,"/>
+<approved hash="113,9,103.331,116.981,RPH901,,,,,"/>
 <approved hash="113,10,134.209,129.54,J1001,,,,,"/>
 </errors>
 </schematic>
