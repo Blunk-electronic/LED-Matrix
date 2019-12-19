@@ -8,34 +8,34 @@
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="no"/>
-<layer number="2" name="Route2" color="1" fill="3" visible="yes" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="no"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="no"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="no"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="no"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="no"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="no"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="no"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="no"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="no"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="no"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="no"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="no"/>
-<layer number="15" name="Route15" color="4" fill="6" visible="yes" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="no"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="no"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="no"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="no"/>
-<layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="no"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="no"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="no"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="no"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="no"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="no"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
+<layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
+<layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="no" active="no"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="no"/>
+<layer number="20" name="Dimension" color="15" fill="1" visible="no" active="no"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="no"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="no"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="no"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="no" active="no"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="no"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="no"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="no"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="no"/>
@@ -44,8 +44,8 @@
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="no"/>
 <layer number="35" name="tGlue" color="7" fill="4" visible="no" active="no"/>
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="no"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="no"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="no"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="no"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="no"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="no"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="no"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="no"/>
@@ -53,18 +53,18 @@
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="no"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="no"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="no"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="no"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="no"/>
-<layer number="48" name="Document" color="7" fill="1" visible="yes" active="no"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="no"/>
-<layer number="50" name="dxf" color="7" fill="1" visible="yes" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="no"/>
-<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="yes" active="no"/>
-<layer number="56" name="wert" color="7" fill="1" visible="yes" active="no"/>
-<layer number="57" name="HEIGHT" color="7" fill="1" visible="yes" active="no"/>
-<layer number="58" name="DEPTH" color="7" fill="1" visible="yes" active="no"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="no"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="no"/>
+<layer number="48" name="Document" color="7" fill="1" visible="no" active="no"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="no"/>
+<layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="no"/>
+<layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
+<layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
+<layer number="57" name="HEIGHT" color="7" fill="1" visible="no" active="no"/>
+<layer number="58" name="DEPTH" color="7" fill="1" visible="no" active="no"/>
 <layer number="90" name="Modules" color="5" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="yes" active="yes"/>
@@ -3894,8 +3894,8 @@ date: 2018-12-09</description>
 <part name="FRAME_PRODUCT2" library="be_frame" deviceset="A4_LANDSCAPE_PRODUCT" device=""/>
 <part name="FRAME_PRODUCT3" library="be_frame" deviceset="A4_LANDSCAPE_PRODUCT" device=""/>
 <part name="IC101" library="be_logic" deviceset="4093" device="N"/>
-<part name="C102" library="be_rcl" deviceset="C" device="_T_DISC_4MM_PITCH_5MM" value="1n">
-<attribute name="PART_CODE_BEL" value="C_PAC_T_DISC_7mm_PITCH_5mm_VAL_10n"/>
+<part name="C102" library="be_rcl" deviceset="C" device="_T_DISC_4MM_PITCH_5MM" value="100n">
+<attribute name="PART_CODE_BEL" value="C_PAC_T_DISC_7mm_PITCH_5mm_VAL_100n"/>
 </part>
 <part name="R102" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="10k">
 <attribute name="PART_CODE_BEL" value="R_PAC_T_0207_PITCH_10mm_VAL_10k"/>
@@ -3939,9 +3939,9 @@ date: 2018-12-09</description>
 <part name="IC102" library="be_logic" deviceset="7400" device="N" value="74LS00">
 <attribute name="PART_CODE_BEL" value="IC_PAC_T_NDIP14_VAL_SN74LS00N"/>
 </part>
-<part name="R103" library="be_rcl" deviceset="RA" device="_T_PT10_HORIZONTAL" value="500k">
+<part name="R103" library="be_rcl" deviceset="RA" device="_T_PT10_HORIZONTAL" value="50k">
 <attribute name="FUNCTION" value="REFRESH RATE"/>
-<attribute name="PART_CODE_BEL" value="R_PAC_T_TRIM_PIHER_PT10_HORIZONTAL_VAL_500k"/>
+<attribute name="PART_CODE_BEL" value="R_PAC_T_TRIM_PIHER_PT10_HORIZONTAL_VAL_50k"/>
 </part>
 <part name="TP102" library="be_con_jump" deviceset="TEST_POINT" device="_T_SMALL"/>
 <part name="TP104" library="be_con_jump" deviceset="TEST_POINT" device="_T_SMALL"/>
@@ -4152,10 +4152,10 @@ date: 2018-12-09</description>
 <part name="C903" library="be_rcl" deviceset="C" device="_T_DISC_4MM_PITCH_5MM" value="10n">
 <attribute name="PART_CODE_BEL" value="C_PAC_S_0805_VAL_10n"/>
 </part>
-<part name="R901" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="10k">
+<part name="R901" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="1k2">
 <attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_10k"/>
 </part>
-<part name="R902" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="470k">
+<part name="R902" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="not fitted">
 <attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_470k"/>
 </part>
 <part name="IC901" library="be_timer" deviceset="555" device="P" value="NE555V">
@@ -4165,8 +4165,8 @@ date: 2018-12-09</description>
 <part name="GND48" library="be_supply" deviceset="GND" device=""/>
 <part name="GND49" library="be_supply" deviceset="GND" device=""/>
 <part name="D901" library="be_diode" deviceset="SINGLE" device="_T_MINIPLAST" value="SAY32"/>
-<part name="R905" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="1k">
-<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_1k"/>
+<part name="R905" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="10k">
+<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_10k"/>
 </part>
 <part name="C901" library="be_rcl" deviceset="C" device="_T_DISC_4MM_PITCH_5MM" value="100n">
 <attribute name="PART_CODE_BEL" value="C_PAC_S_0805_VAL_100n"/>
@@ -4174,8 +4174,8 @@ date: 2018-12-09</description>
 <part name="GND50" library="be_supply" deviceset="GND" device=""/>
 <part name="FRAME_PRODUCT9" library="be_frame" deviceset="A4_LANDSCAPE_PRODUCT" device=""/>
 <part name="T901" library="be_transistor" deviceset="PNP" device="_T_TO126_VERTICAL" value="BD136"/>
-<part name="R906" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="1k">
-<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_1k"/>
+<part name="R906" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="330">
+<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_330"/>
 </part>
 <part name="R903" library="be_rcl" deviceset="R" device="_T_0207_PITCH_10MM" value="1k">
 <attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_1k"/>
@@ -4270,8 +4270,8 @@ date: 2018-12-09</description>
 <sheet>
 <plain>
 <text x="127" y="142.24" size="1.27" layer="97" font="fixed">count on LH edge</text>
-<text x="64.135" y="152.4" size="1.27" layer="97" font="fixed">1..100Hz</text>
-<text x="48.26" y="63.5" size="1.27" layer="97" font="fixed">100kHz</text>
+<text x="64.135" y="152.4" size="1.27" layer="97" font="fixed">20..100Hz</text>
+<text x="48.26" y="63.5" size="1.27" layer="97" font="fixed">1kHz</text>
 </plain>
 <instances>
 <instance part="FRAME_PRODUCT1" gate="G$1" x="0" y="0"/>
@@ -6383,6 +6383,9 @@ date: 2018-12-09</description>
 </sheet>
 <sheet>
 <plain>
+<text x="127" y="83.82" size="1.27" layer="97" font="fixed">dark: 200Hz 
+bright: 10kHz
+50us fixed low time</text>
 </plain>
 <instances>
 <instance part="C902" gate="G$1" x="30.48" y="68.58"/>
@@ -6953,4 +6956,10 @@ date: 2018-12-09</description>
 </errors>
 </schematic>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>

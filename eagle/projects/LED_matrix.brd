@@ -23,45 +23,45 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
-<layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tCopper" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="54" name="bCopper" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="54" name="bCopper" color="7" fill="1" visible="no" active="yes"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
 <layer number="57" name="HEIGHT" color="7" fill="1" visible="no" active="no"/>
 <layer number="58" name="DEPTH" color="7" fill="1" visible="no" active="no"/>
@@ -74,12 +74,12 @@
 <layer number="96" name="Values" color="7" fill="1" visible="no" active="no"/>
 <layer number="97" name="Info" color="5" fill="1" visible="no" active="no"/>
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
-<layer number="100" name="frame_development" color="3" fill="1" visible="yes" active="yes"/>
-<layer number="101" name="frame_net_changers" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="100" name="frame_development" color="3" fill="1" visible="no" active="yes"/>
+<layer number="101" name="frame_net_changers" color="1" fill="1" visible="no" active="yes"/>
 <layer number="105" name="Beschreib" color="9" fill="1" visible="no" active="no"/>
 <layer number="106" name="BGA-Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="107" name="BD-Top" color="5" fill="1" visible="no" active="no"/>
-<layer number="120" name="brd_placement_notes" color="5" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="brd_placement_notes" color="5" fill="1" visible="no" active="yes"/>
 <layer number="198" name="BMP198" color="7" fill="1" visible="no" active="no"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
@@ -1164,10 +1164,10 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterlplatten-anfragef
 </pass>
 </autorouter>
 <elements>
-<element name="C102" library="be_rcl" package="T_DISC_4MM_PITCH_5MM" value="1n" x="57" y="8.6" smashed="yes" rot="R180">
+<element name="C102" library="be_rcl" package="T_DISC_4MM_PITCH_5MM" value="100n" x="57" y="8.6" smashed="yes" rot="R180">
 <attribute name="FUNCTION" value="" x="57" y="8.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="COMMISSIONED" value="2018-12-23" x="57" y="8.6" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="PART_CODE_BEL" value="C_PAC_T_DISC_7mm_PITCH_5mm_VAL_10n" x="57" y="8.6" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PART_CODE_BEL" value="C_PAC_T_DISC_7mm_PITCH_5mm_VAL_100n" x="57" y="8.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="BOM" value="YES" x="57" y="8.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="UPDATED" value="" x="57" y="8.6" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="57" y="8.6" size="1.778" layer="27" rot="R180" display="off"/>
@@ -1292,10 +1292,10 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterlplatten-anfragef
 <attribute name="NAME" x="63.5" y="4.4" size="1" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="63.3" y="6.2" size="1" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="R103" library="be_rcl" package="T_TRIM_PIHER_PT10_HORIZONTAL" value="500k" x="75.1" y="8.7" smashed="yes" rot="R270">
+<element name="R103" library="be_rcl" package="T_TRIM_PIHER_PT10_HORIZONTAL" value="50k" x="75.1" y="8.7" smashed="yes" rot="R270">
 <attribute name="FUNCTION" value="REFRESH RATE" x="71.2" y="1.8" size="1" layer="21" font="vector" ratio="15"/>
 <attribute name="COMMISSIONED" value="2018-11-11" x="75.1" y="8.7" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="PART_CODE_BEL" value="R_PAC_T_TRIM_PIHER_PT10_HORIZONTAL_VAL_500k" x="75.1" y="8.7" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PART_CODE_BEL" value="R_PAC_T_TRIM_PIHER_PT10_HORIZONTAL_VAL_50k" x="75.1" y="8.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="BOM" value="YES" x="75.1" y="8.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="UPDATED" value="" x="75.1" y="8.7" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="75.1" y="8.7" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2286,7 +2286,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterlplatten-anfragef
 <attribute name="NAME" x="41.8" y="10.4" size="1" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="39" y="13.6" size="1" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R901" library="be_rcl" package="T_0207_PITCH_10MM" value="10k" x="37.6" y="27.8" smashed="yes" rot="R180">
+<element name="R901" library="be_rcl" package="T_0207_PITCH_10MM" value="1k2" x="37.6" y="27.8" smashed="yes" rot="R180">
 <attribute name="BOM" value="YES" x="73.6" y="-28.2" size="1" layer="27" font="vector" ratio="13" rot="R180" display="off"/>
 <attribute name="COMMISSIONED" value="2014-10-13" x="73.6" y="-28.2" size="1" layer="27" font="vector" ratio="13" rot="R180" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="73.6" y="-28.2" size="1" layer="27" font="vector" ratio="13" rot="R180" display="off"/>
@@ -2296,7 +2296,7 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterlplatten-anfragef
 <attribute name="NAME" x="35.6" y="29.2" size="1" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="39" y="28.2" size="1" layer="27" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="R902" library="be_rcl" package="T_0207_PITCH_10MM" value="470k" x="45.8" y="31" smashed="yes" rot="R180">
+<element name="R902" library="be_rcl" package="T_0207_PITCH_10MM" value="not fitted" x="45.8" y="31" smashed="yes" rot="R180">
 <attribute name="BOM" value="YES" x="93.8" y="-25" size="1" layer="27" font="vector" ratio="13" rot="R180" display="off"/>
 <attribute name="COMMISSIONED" value="2014-10-13" x="93.8" y="-25" size="1" layer="27" font="vector" ratio="13" rot="R180" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="93.8" y="-25" size="1" layer="27" font="vector" ratio="13" rot="R180" display="off"/>
@@ -2326,12 +2326,12 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterlplatten-anfragef
 <attribute name="NAME" x="49" y="27.6" size="1" layer="25" font="vector" ratio="15"/>
 <attribute name="VALUE" x="49" y="26.4" size="1" layer="27" font="vector" ratio="15"/>
 </element>
-<element name="R905" library="be_rcl" package="T_0207_PITCH_10MM" value="1k" x="123.2" y="10" smashed="yes">
+<element name="R905" library="be_rcl" package="T_0207_PITCH_10MM" value="10k" x="123.2" y="10" smashed="yes">
 <attribute name="BOM" value="YES" x="63.2" y="-28" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="COMMISSIONED" value="2014-10-13" x="63.2" y="-28" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="63.2" y="-28" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="UPDATED" value="" x="63.2" y="-28" size="1" layer="27" font="vector" ratio="13" display="off"/>
-<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_1k" x="63.2" y="-28" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_10k" x="63.2" y="-28" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="FUNCTION" value="" x="63.2" y="-28" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="NAME" x="117.2" y="10.4" size="1" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="122.6" y="9.4" size="1" layer="27" font="vector" ratio="15"/>
@@ -2356,12 +2356,12 @@ Enquiry: &lt;a href=&quot;http://www.jlp.de/files/jenaer_leiterlplatten-anfragef
 <attribute name="NAME" x="131.6" y="8.4" size="1" layer="25" font="vector" ratio="15" rot="R270"/>
 <attribute name="VALUE" x="137.2" y="8.6" size="1" layer="27" font="vector" ratio="15" rot="R270"/>
 </element>
-<element name="R906" library="be_rcl" package="T_0207_PITCH_10MM" value="1k" x="123.2" y="5.2" smashed="yes">
+<element name="R906" library="be_rcl" package="T_0207_PITCH_10MM" value="330" x="123.2" y="5.2" smashed="yes">
 <attribute name="BOM" value="YES" x="123.2" y="5.2" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="COMMISSIONED" value="2014-10-13" x="123.2" y="5.2" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="PART_CODE_EXT" value="" x="123.2" y="5.2" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="UPDATED" value="" x="123.2" y="5.2" size="1" layer="27" font="vector" ratio="13" display="off"/>
-<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_1k" x="123.2" y="5.2" size="1" layer="27" font="vector" ratio="13" display="off"/>
+<attribute name="PART_CODE_BEL" value="R_PAC_S_0805_VAL_330" x="123.2" y="5.2" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="FUNCTION" value="" x="123.2" y="5.2" size="1" layer="27" font="vector" ratio="13" display="off"/>
 <attribute name="NAME" x="117.1" y="5.7" size="1" layer="25" font="vector" ratio="15" rot="R180"/>
 <attribute name="VALUE" x="122.6" y="4.6" size="1" layer="27" font="vector" ratio="15"/>
